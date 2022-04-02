@@ -25,7 +25,7 @@ const int IMAGE_SIZE = 352*288; // SET VIDEO IMAGE SIZE
 const double IMAGE_CONVERTION = P420; // SET IMAGE CONVERSATION
 const uint8_t n_frames = 150; // SET NUMBERS OF FRAME IN VIDEO
 const uint8_t firstPictureInclusion = 30; // FIRST FRAME OVERLAY PICTURE
-        const uint8_t lastPictureInclusion = 100; // LAST FRAME OVERLAY PICTURE
+const uint8_t lastPictureInclusion = 100; // LAST FRAME OVERLAY PICTURE
 
 You also need to change the path to your file in streams (image and video file)
 
