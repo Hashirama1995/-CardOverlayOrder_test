@@ -14,6 +14,7 @@ The program converts .bmp image to .yuv420 and overlays .yuv video from 30 to 10
 - build the project (CMake build system)
 - copy video.yuv from yav_video folder to bin/Debug/ folder
 - copy bike2.bmp from bitmap_image folder to bin/Debug/ folder
+
 ATTENTION:
 The project only supports resolution (352*288) and number of frames=150
 
