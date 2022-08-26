@@ -1,5 +1,4 @@
 # testProject
-my test for elecard
 The program converts .bmp image to .yuv420 and overlays .yuv video from 30 to 100 frames.
 
 1) If you want to run the built project:
