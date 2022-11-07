@@ -19,6 +19,7 @@ You must enter: ..PATH\testProject.exe "..PATH/picture name" "..PATH/video name"
 
 **#To run the example** 
 (if you have previously copied the picture and video to the .exe folder)
+
 Example: .\testProject.exe "bike2.bmp" "video.yuv" 352 288 150
 
 If you want to use a different video and picture, you need to specify as parameters when starting .exe:
