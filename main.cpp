@@ -35,6 +35,12 @@ int main(int argc, const char *argv[])
     std::cout<<"video Width : "<< videoWidth <<std::endl;
     std::cout<<"video Height : "<< videoHeight <<std::endl<<std::endl;
 
+    if(imgWidth > videoWidth || imgHeight > videoHeight)
+    {
+        std::cout<<std::endl <<"ERROR :The width/height of the picture is greater than the width/height of the video frame "<<std::endl<<std::endl;
+        return 1;
+    }
+
     videoCountFrame = atoi(argv[5]);
     std::cout<<"Count video frame : "<< videoCountFrame <<std::endl<<std::endl;
 
