@@ -1,5 +1,8 @@
 #pragma once
-#include <vector>
+#include <iostream>
+#include <fstream>
+#include <tuple>
+#include <thread>
 
 class Image
 {
@@ -8,6 +11,7 @@ public:
     ~Image();
 
     std::tuple<int,int> getSize();
+    unsigned long getImagePixelSize();
     unsigned char* getRGBBuffer();
     unsigned char* getYUVBuffer();
     
@@ -17,8 +21,8 @@ public:
 private:
     int m_width;
     int m_heigth;
+    unsigned long image_pixel_size;
 
-    unsigned char* imgbuffer;
-    unsigned char* imgbuffer2;   
-
+    unsigned char* imgbufferRGB;
+    unsigned char* imgbufferYUV;   
 };
